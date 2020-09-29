@@ -1,4 +1,4 @@
-## This project is a avalible in [Exercise Tracker](https://gabogarciam.github.io/exerciseTracker/).
+## This project is a avalible in [Exercise Tracker](https://gabogarciam.github.io/exerciseTracker/) 🤩
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
