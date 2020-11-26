@@ -5,7 +5,7 @@ import './Home.css'
      render() {
         return (
             <div>
-                This is a Home Component!!!
+                Hi there, this is a Exercise Tracker App!!!
             </div>
         )
      }

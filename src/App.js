@@ -12,14 +12,14 @@ import Home from './components/Home/Home';
 function App() {
   return (
     <Router>
-        <div className='container'>
-          <Navbar />
-          <Route path='/' exact component={Home} />
-          <Route path='/all-exercises' component={ExerciseList} />
-          <Route path='/edit/:id' component={EditExercise} />
-          <Route path='/create-exercise' component={CreateExercise} />
-          <Route path='/create-user' component={CreateUser} />
-        </div>
+      <Navbar />
+      <div className='container'>
+        <Route path='/' exact component={Home} />
+        <Route path='/all-exercises' component={ExerciseList} />
+        <Route path='/edit/:id' component={EditExercise} />
+        <Route path='/create-exercise' component={CreateExercise} />
+        <Route path='/create-user' component={CreateUser} />
+      </div>
     </Router>
   );
 }
